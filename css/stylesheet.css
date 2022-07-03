@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.my {
+    margin-bottom: 1rem !important;
+}
+
+.my-widget {
+    overflow: hidden;
+    height: 500px;
+}
+
+.post {
+    height: 100%;
+}
+
+.post img {
+    height: 100%;
+    width: 100%;
+}
+
+.layer {
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.637);
+    text-align: center;
+    color: #000;
+    font-weight: 800;
+    transition: all 1s;
+}
+
+.layer p {
+    text-align: center;
+    color: #000;
+    font-weight: 200;
+}
+
+
+.my-widget:hover .layer {
+    top: 0%;
+}
+
+/*------------------------------------------------------*/
+
+.slide-menu {
+    background-color: black;
+    height: 100vh;
+    z-index: 1024;
+
+
+
+}
+
+.side-bar ul {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 5rem;
+}
+
+.side-bar li {
+    list-style-type: none;
+
+}
+
+.side-bar a:hover {
+    color: tomato;
+}
+
+.side-menu-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+
+}
+
+.contact-p {
+    color: white;
+}
+
+.form-control {
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, .7);
+    border-radius: 0;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color:transparent;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+}

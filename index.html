@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Sayed Movie </title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+
+
+
+  <section id="side_menu">
+    <div class="slide-menu d-flex position-fixed">
+      <div class="side-bar">
+        <ul>
+          <a class="nav-bt" title="now_playing">
+            <li class="mb-3">Now Playing</li>
+          </a>
+          <a class="nav-bt" title="popular">
+            <li class="mb-3">popular</li>
+          </a>
+          <a class="nav-bt" title="top_rated">
+            <li class="mb-3">Top Rated</li>
+          </a>
+          <a class="nav-bt" title="trending/all/day">
+            <li class="mb-3">Trending</li>
+          </a>
+          <a class="nav-bt" title="upcoming">
+            <li class="mb-3">Up Coming</li>
+          </a>
+          <li class="mb-3"><a class="nav-bt" href="#contact-us">Contact Us</li></a>
+        </ul>
+      </div>
+
+      <div class="side-menu-btn align-items-center">
+
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </section>
+
+  <section id="search">
+
+
+    <div class="container mb-5 ">
+      <div class="row mb-3">
+        
+          <div class="form-group">
+            <input class="form-control mt-5" id="movie-word" placeholder="Get by Movie Word">
+          </div>
+        
+      </div>
+    
+
+
+    <div class="row mb-3">
+    
+        <div class="form-group">
+          <input class="form-control" id="search" placeholder="search">
+        </div>
+      </div>
+ 
+  </div>
+  </section>
+
+
+  <section id="main">
+    <div class="container pt-4">
+      <div class="row" id="poster">
+
+      </div>
+    </div>
+
+  </section>
+
+  <section id="contact-us">
+
+    <div class="container mt-5">
+      <div class="row">
+        <h2 class="contact-p">Contact us</h2>
+        <div class="col-md-6 mb-4">
+          <div class="form-group">
+            <input class="form-control" id="name" placeholder="Enter name">
+            <div class="alert alert-danger d-none" id="namealert" role="alert">
+              entre valid email
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-6 mb-4">
+          <div class="form-group">
+            <input class="form-control" id="email" placeholder="Enter Email">
+            <div class="alert alert-danger d-none" id="emailalert" role="alert">
+              entre valid email
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+          <div class="form-group">
+            <input class="form-control" id="phone" placeholder="Enter phone">
+            <div class="alert alert-danger d-none" id="phonealert" role="alert">
+              entre valid phone
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 mb-4">
+          <div class="form-group">
+            <input class="form-control" id="age" placeholder="Enter Age">
+            <div class="alert alert-danger d-none" id="agealert" role="alert" style="display: none;">
+              entre valid Age
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+          <div class="form-group">
+            <input class="form-control" type="password" id="password" placeholder="Enter Password">
+            <div class="alert alert-danger d-none" id="passwordalert" role="alert">
+              entre valid password *Minimum eight characters, at least one letter and one number:*
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+          <div class="form-group">
+            <input class="form-control" type="password" id="rePassword" placeholder="Enter RePassword">
+            <div class="alert alert-danger d-none" id="repasswordalert" role="alert">
+              entre valid Repassword
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container"> <button type="submit" disabled="" id="submitBtn"
+        class="btn btn-outline-danger">Submit</button>
+    </div>
+    </div>
+
+
+
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="Js/all.min.js"></script>
+  <script src="Js/bootstrap.bundle.min.js"></script>
+  <script src="Js/mycode.js"></script>
+</body>
+
+</html>
